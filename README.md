@@ -1,6 +1,8 @@
 
 #  🔐 Linux-KeyTrace <sup><sub>v1.0</sub></sup>
 
+![Linux-KeyTrace Banner](Banner.png)
+
 **Linux-KeyTrace** is a Linux-based advanced keylogger built for cybersecurity research and awareness purposes. It captures keystrokes and mouse activity, logs them locally with timestamps, and periodically exfiltrates logs to a remote control server. It includes stealth features such as process renaming and service masquerading.
 
 ---
