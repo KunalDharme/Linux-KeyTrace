@@ -67,7 +67,9 @@ make clean && make
 
 ```bash
 cd server
-source venv/bin/activate   # If using virtualenv
+python3 -m venv venv       # Create python virtualenv
+source venv/bin/activate   # Start virtualenv
+pip install -r requirements.txt 
 python3 listener.py
 ```
 
