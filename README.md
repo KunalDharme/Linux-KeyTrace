@@ -133,9 +133,21 @@ Unauthorized use **may violate privacy laws and computer misuse legislation** in
 
 ---
 
+## 📜 License
+
+This project is licensed under the **GNU General Public License v3.0**.  
+You are free to **use, modify, and distribute** this software, as long as any copies or derivative works are also licensed under the **GPLv3**.
+
+> 🛡️ This ensures the project remains free and open for everyone.
+
+See the full license text in the [LICENSE](LICENSE) file.
+
+---
+
 ## 📫 Contact
 
 For inquiries related to responsible usage, security research, or contributing to the project, please reach out via GitHub.
 
 ## Author
 Developed by Kunal Dharme.
+
