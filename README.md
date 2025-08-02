@@ -53,6 +53,21 @@ Linux-KeyTrace/
 
 ---
 
+## 🛠️ Prerequisites
+
+Make sure you have the following installed on your Linux system before building:
+
+```bash
+sudo apt update
+sudo apt install -y build-essential libcurl4-openssl-dev linux-headers-$(uname -r)
+```
+
+- `build-essential`: GCC compiler, make, and essential tools  
+- `libcurl4-openssl-dev`: Development files for libcurl used in network exfiltration  
+- `linux-headers-$(uname -r)`: Kernel headers for accessing input devices  
+
+---
+
 ## 🚀 Quick Setup
 
 ### 1. Build the Keylogger
@@ -84,7 +99,7 @@ The server will start on `http://<your-ip>:8080`
 ```bash
 ps aux | grep pulseaudio
 sudo kill <PID>            # Optional if testing
-sudo ./pulseaudio          # Starts the keylogger
+sudo ./pulseaudio          # Run the keylogger as root 
 ```
 
 **Terminal 2** (server already running)
@@ -120,7 +135,7 @@ Unauthorized use **may violate privacy laws and computer misuse legislation** in
 
 ## 📫 Contact
 
-For inquiries related to responsible usage, security research, or contributing to the project, please reach out via GitHub or your institutional contact channels.
+For inquiries related to responsible usage, security research, or contributing to the project, please reach out via GitHub.
 
 ## Author
 Developed by Kunal Dharme.
